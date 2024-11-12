@@ -20,34 +20,37 @@
 		"SG_back":"connect-ws-dra.hispace.dbankcloud.com"
 	},
 	"client":{
-		"cp_id":"70086000187586270",
-		"product_id":"388421841221708581",
-		"project_id":"388421841221708581",
-		"app_id":"109326889",
-		"package_name":"com.skythinker.gptassistant"
+		"cp_id":"30086000815533024",
+		"product_id":"461323198428883494",
+		"client_id":"1520273214469632704",
+		"client_secret":"5E3E905A620A789E17BA492CD43CD3CD7E151DC7124207D45B9E6403E2660084",
+		"project_id":"461323198428883494",
+		"app_id":"112157577",
+		"api_key":"DQEDACS/HwRabgGExwmY2flgDy68FZLKUXlvg/1V8JgRieqLS/y6CzDKCm1E76OS0sjGSLbpxg9a0faPHqB8oSR2eLccTjh0A24TYw==",
+		"package_name":"com.jankinwu.gptassistant"
 	},
 	"oauth_client":{
-		"client_id":"109326889",
+		"client_id":"112157577",
 		"client_type":1
 	},
 	"app_info":{
-		"app_id":"109326889",
-		"package_name":"com.skythinker.gptassistant"
+		"app_id":"112157577",
+		"package_name":"com.jankinwu.gptassistant"
 	},
 	"configuration_version":"3.0",
 	"appInfos":[
 		{
-			"package_name":"com.skythinker.gptassistant",
+			"package_name":"com.jankinwu.gptassistant",
 			"client":{
-				"app_id":"109326889"
+				"app_id":"112157577"
 			},
 			"app_info":{
-				"package_name":"com.skythinker.gptassistant",
-				"app_id":"109326889"
+				"package_name":"com.jankinwu.gptassistant",
+				"app_id":"112157577"
 			},
 			"oauth_client":{
 				"client_type":1,
-				"client_id":"109326889"
+				"client_id":"112157577"
 			}
 		}
 	]

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.skythinker.gptassistant">
+    package="com.jankinwu.gptassistant">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -34,7 +34,7 @@
         android:extractNativeLibs="true"
         android:networkSecurityConfig="@xml/network_security_config">
         <service
-            android:name=".MyAccessbilityService"
+            android:name="com.jankinwu.gptassistant.MyAccessbilityService"
             android:enabled="true"
             android:exported="true"
             android:label="@string/accessibility_service_label"
@@ -47,7 +47,7 @@
                 android:resource="@xml/accessibility_service_config" />
         </service>
 
-        <service android:name=".QuickStartService"
+        <service android:name="com.jankinwu.gptassistant.QuickStartService"
             android:label="GPT"
             android:icon="@drawable/tile_icon"
             android:description="@string/app_name"
@@ -59,19 +59,19 @@
         </service>
 
         <activity
-            android:name=".TabDetailConfActivity"
+            android:name="com.jankinwu.gptassistant.TabDetailConfActivity"
             android:exported="false" />
         <activity
-            android:name=".TabConfActivity"
+            android:name="com.jankinwu.gptassistant.TabConfActivity"
             android:exported="true" />
         <activity
-            android:name=".HistoryActivity"
+            android:name="com.jankinwu.gptassistant.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".OnlineTemplatesActivity"
+            android:name="com.jankinwu.gptassistant.OnlineTemplatesActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.jankinwu.gptassistant.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="stateVisible|adjustResize"
             android:launchMode="singleTask">
